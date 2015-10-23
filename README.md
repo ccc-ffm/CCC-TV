@@ -6,3 +6,6 @@ A Fronted to the content from media.ccc.de for new the Apple Tv.
 
 
 
+## Contributors ##
+
+* Kris Simon (adt, ccc-ffm)
