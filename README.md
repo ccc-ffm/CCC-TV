@@ -20,7 +20,7 @@ Just select the event your interested in and enjoy the various world of Chaos Co
 ### Gernman
 Der Chaos Computer Club ist Europa größte Hackervereinigung und ein Treffpunkt für vielfältig interessierte Menschen aus der ganzen Welt.
 Man trifft sich vor Allem in kleinen Zusammenkünften, aber auch auf großen Konferenzen. Es wird gebastelt, ausprobiert und getüftelt. Technische Schranken werden beseitigt, Neues gebaut und Altes zerlegt.
-Es wird diskutiert und politisiert. Bei allen Aktivitäten stehen jedoch Kommunikation und Austausch stehen im Vordergrund.
+Es wird diskutiert und politisiert. Bei allen Aktivitäten stehen jedoch Kommunikation und Austausch im Vordergrund.
 
 Seit vielen Jahren kreiert der Chaos Computer Club Videos, die viele der Vorträge und Aktivitäten dokumentieren. Natürlich sind diese Videos auch über verschiedene Wege abrufbar.
 Mit der App CCC-TV ist der Video-Content des Chaos Computer Club nun auf bequeme Art und Weise auf dem Apple TV verfügbar.
