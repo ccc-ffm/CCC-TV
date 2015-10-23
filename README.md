@@ -5,6 +5,7 @@ A Fronted to the content from media.ccc.de for new the Apple Tv.
 ![Main Screen](./resources/ScreenShot.png)
 
 ## About ##
+![About the app](./resources/graphics/tsi.png)
 
 ### English ###
 
@@ -17,7 +18,7 @@ This easy to use App reduces the barrier and makes the activities of the Chaos C
  
 Just select the event your interested in and enjoy the various world of Chaos Computer Club on your sofa!
 
-### Gernman
+### German
 Der Chaos Computer Club ist Europa größte Hackervereinigung und ein Treffpunkt für vielfältig interessierte Menschen aus der ganzen Welt.
 Man trifft sich vor Allem in kleinen Zusammenkünften, aber auch auf großen Konferenzen. Es wird gebastelt, ausprobiert und getüftelt. Technische Schranken werden beseitigt, Neues gebaut und Altes zerlegt.
 Es wird diskutiert und politisiert. Bei allen Aktivitäten stehen jedoch Kommunikation und Austausch im Vordergrund.
