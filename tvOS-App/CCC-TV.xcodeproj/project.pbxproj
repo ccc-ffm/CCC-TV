@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		010BAB5E1BCC7032007CB351 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010BAB5D1BCC7032007CB351 /* AppDelegate.swift */; };
+		010BAB631BCC7032007CB351 /* CCC_TV.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 010BAB611BCC7032007CB351 /* CCC_TV.xcdatamodeld */; };
+		010BAB681BCC7032007CB351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 010BAB671BCC7032007CB351 /* Assets.xcassets */; };
+		01B5D8F81BD66CF5007CB351 /* SettingsExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B5D8F71BD66CF5007CB351 /* SettingsExport.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		010BAB5A1BCC7032007CB351 /* CCC-TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CCC-TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		010BAB5D1BCC7032007CB351 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AppDelegate.swift; sourceTree = "<group>"; };
+		010BAB621BCC7032007CB351 /* CCC_TV.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CCC_TV.xcdatamodel; sourceTree = "<group>"; };
+		010BAB671BCC7032007CB351 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		010BAB691BCC7032007CB351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01B5D8F71BD66CF5007CB351 /* SettingsExport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsExport.swift; path = Exports/SettingsExport.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		010BAB571BCC7032007CB351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		010BAB511BCC7032007CB351 = {
+			isa = PBXGroup;
+			children = (
+				010BAB5C1BCC7032007CB351 /* CCC-TV */,
+				010BAB5B1BCC7032007CB351 /* Products */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		010BAB5B1BCC7032007CB351 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				010BAB5A1BCC7032007CB351 /* CCC-TV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		010BAB5C1BCC7032007CB351 /* CCC-TV */ = {
+			isa = PBXGroup;
+			children = (
+				01B5D8F91BD66CFA007CB351 /* Exports */,
+				010BAB5D1BCC7032007CB351 /* AppDelegate.swift */,
+				010BAB671BCC7032007CB351 /* Assets.xcassets */,
+				010BAB691BCC7032007CB351 /* Info.plist */,
+				010BAB611BCC7032007CB351 /* CCC_TV.xcdatamodeld */,
+			);
+			path = "CCC-TV";
+			sourceTree = "<group>";
+		};
+		01B5D8F91BD66CFA007CB351 /* Exports */ = {
+			isa = PBXGroup;
+			children = (
+				01B5D8F71BD66CF5007CB351 /* SettingsExport.swift */,
+			);
+			name = Exports;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		010BAB591BCC7032007CB351 /* CCC-TV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 010BAB6C1BCC7032007CB351 /* Build configuration list for PBXNativeTarget "CCC-TV" */;
+			buildPhases = (
+				010BAB561BCC7032007CB351 /* Sources */,
+				010BAB571BCC7032007CB351 /* Frameworks */,
+				010BAB581BCC7032007CB351 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CCC-TV";
+			productName = "CCC-TV";
+			productReference = 010BAB5A1BCC7032007CB351 /* CCC-TV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		010BAB521BCC7032007CB351 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "aus der Technik";
+				TargetAttributes = {
+					010BAB591BCC7032007CB351 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = SR2JMV9NNY;
+					};
+				};
+			};
+			buildConfigurationList = 010BAB551BCC7032007CB351 /* Build configuration list for PBXProject "CCC-TV" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 010BAB511BCC7032007CB351;
+			productRefGroup = 010BAB5B1BCC7032007CB351 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				010BAB591BCC7032007CB351 /* CCC-TV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		010BAB581BCC7032007CB351 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010BAB681BCC7032007CB351 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		010BAB561BCC7032007CB351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010BAB5E1BCC7032007CB351 /* AppDelegate.swift in Sources */,
+				01B5D8F81BD66CF5007CB351 /* SettingsExport.swift in Sources */,
+				010BAB631BCC7032007CB351 /* CCC_TV.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		010BAB6A1BCC7032007CB351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		010BAB6B1BCC7032007CB351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		010BAB6D1BCC7032007CB351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				INFOPLIST_FILE = "CCC-TV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.ausdertechnik.CCC-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		010BAB6E1BCC7032007CB351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				INFOPLIST_FILE = "CCC-TV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.ausdertechnik.CCC-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		010BAB551BCC7032007CB351 /* Build configuration list for PBXProject "CCC-TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				010BAB6A1BCC7032007CB351 /* Debug */,
+				010BAB6B1BCC7032007CB351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		010BAB6C1BCC7032007CB351 /* Build configuration list for PBXNativeTarget "CCC-TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				010BAB6D1BCC7032007CB351 /* Debug */,
+				010BAB6E1BCC7032007CB351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		010BAB611BCC7032007CB351 /* CCC_TV.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				010BAB621BCC7032007CB351 /* CCC_TV.xcdatamodel */,
+			);
+			currentVersion = 010BAB621BCC7032007CB351 /* CCC_TV.xcdatamodel */;
+			path = CCC_TV.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 010BAB521BCC7032007CB351 /* Project object */;
+}

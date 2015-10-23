@@ -1,0 +1,29 @@
+//
+//  about.tvml
+//  CCC-TV
+//
+//  Contributors: Kris Simon
+//
+//  ISC 2015 aus der Technik.
+//
+// Abstract:
+// This is the first loades page from the javascript navigation stack. Its presenting 
+// the main navigation on top of the screen.
+//
+
+var Template = function(section, callback) { 
+var html = `<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+  <menuBarTemplate>
+    <menuBar>
+      <menuItem template="${this.BASEURL}/templates/Catalog.xml.js" section="conferences" presentation="menuBarItemPresenter">
+        <title>Events</title>
+      </menuItem>
+	  <menuItem template="${this.BASEURL}/about.tvml" presentation="menuBarItemPresenter">
+        <title>About</title>
+      </menuItem>
+    </menuBar>
+  </menuBarTemplate>
+</document>`;
+callback(null, html);
+}

@@ -1,0 +1,39 @@
+//
+//  about.tvml
+//  CCC-TV
+//
+//  Contributors: Kris Simon
+//
+//  ISC 2015 aus der Technik.
+//
+// Abstract:
+// This is the about page. Shows some static information about the app.
+//
+
+var Template = function(section, callback) { 
+	callback(null, `<?xml version="1.0" encoding="UTF-8" ?>
+	<document>
+		<head>
+			<style>
+				.blackText {
+					color: rgb(97, 97, 97);
+				}
+				.grayText {
+					color: rgb(147, 147, 147);
+				}
+			</style>
+		</head>
+		<descriptiveAlertTemplate>
+			<title class="blackText">CCC-TV</title>
+			<img />
+			<description class="grayText">
+The video material is provided by media.ccc.de
+
+Special thanks to Chaos Computer Club Köln (CCCC) and Chaos Computer Club Frankfurt (CCC-FFM).				
+This is an open source project by aus der Technik - Simon &amp; Simon GbR and available on GitHub.
+
+If you like the content please join the Chaos Computer Club.
+	   </description>
+	</descriptiveAlertTemplate>
+	</document>`);
+};
