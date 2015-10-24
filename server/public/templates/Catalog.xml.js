@@ -22,14 +22,14 @@ var title = {
 var objectLoader = new ObjectLoader();
 
 // Loader for the selected section
-var getData = function(section, callback){
+var getData = function getData(section, callback){
 	var url = "https://api.media.ccc.de/public/"+ section;
 	objectLoader.getResource(url, function(err, data){
 		callback(err, data[section]);
 	});
 }
 
-var Template = function(section, callback) { 
+var Template = function CatalogTemplate(section, callback) { 
 	var conferencesList = function(callback){
 		var cntEvent = 0;
 		getData(section, function(err, data){

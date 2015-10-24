@@ -53,6 +53,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, TVApplicationControllerDe
         // Override point for customization after application launch.
         window = UIWindow(frame: UIScreen.mainScreen().bounds)
         print("Build: \(build) Versin: \(version)")
+        print("URL: \(AppDelegate.TVBaseURL)")
         
         /*
         Create the TVApplicationControllerContext for this application

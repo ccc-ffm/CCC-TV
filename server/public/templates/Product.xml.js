@@ -14,7 +14,7 @@
 //
 
 // Convert month numbers into names
-var Template = function(model, callback) { 
+var Template = function ProductTemplate(model, callback) { 
 	model.printMonth = function(number){
 		switch(parseInt(number)){
 			case 1:
