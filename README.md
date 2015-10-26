@@ -33,5 +33,6 @@ Einfach auf´s Sofa setzen, CCC-TV auswählen und in die wunderbar vielfältige 
 ## Contributors ##
 
 * Kris Simon (adt, ccc-ffm)
+* Wonko (ccc-ffm)
 
 If you like to contribute, please read this [document](./resources/contribute.md).
