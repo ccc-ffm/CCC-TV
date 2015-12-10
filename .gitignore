@@ -2,3 +2,7 @@
 tvOS-App/CCC-TV.xcodeproj/project.xcworkspace/xcuserdata
 tvOS-App/CCC-TV.xcodeproj/xcuserdata
 tvOS-App/Build
+tvOS-App/Pods
+tvOS-App/Podfile.lock
+tvOS-App/CCC-TV/CCCtv.xcodeproj/xcuserdata
+tvOS-App/CCC-TV/CCCtv.xcodeproj/project.xcworkspace/xcuserdata
