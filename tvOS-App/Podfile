@@ -1,0 +1,9 @@
+workspace 'CCC-TV'
+#platform :ios, '9.0'
+xcodeproj 'CCC-TV/CCCtv.xcodeproj'
+
+use_frameworks!
+
+    pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
+
+link_with 'CCCtv', 'CCCtv-Tests'

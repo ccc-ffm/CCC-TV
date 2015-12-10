@@ -17,12 +17,13 @@ import TVMLKit
 
 class SettingsExport: NSObject, SettingsExportProtocol {
 
+    private var settingsStore: Dictionary<String, String> = Dictionary()
+    
     func getItem(key: String) -> String? {
-        
-        return "String value"
+        return settingsStore[key]
     }
     
     func setItem(key: String, data: String) {
-            print("Set key:\(key) value:\(data)")
+        settingsStore[key] = data
     }
 }
