@@ -2,9 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/kris/Projects/ausdertechnik.de/Applications/Public/CCC-TV/tvOS-App/CCC-TV/CCCtv.xcodeproj">
+      location = "group:Pods/Pods.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Pods/Pods.xcodeproj">
+      location = "group:CCC-TV/CCCtv.xcodeproj">
    </FileRef>
 </Workspace>
