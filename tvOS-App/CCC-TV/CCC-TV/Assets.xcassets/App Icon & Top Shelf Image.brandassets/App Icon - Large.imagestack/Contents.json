@@ -1,0 +1,23 @@
+{
+  "layers" : [
+    {
+      "filename" : "04.imagestacklayer"
+    },
+    {
+      "filename" : "03.imagestacklayer"
+    },
+    {
+      "filename" : "02.imagestacklayer"
+    },
+    {
+      "filename" : "01.imagestacklayer"
+    },
+    {
+      "filename" : "00.imagestacklayer"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
