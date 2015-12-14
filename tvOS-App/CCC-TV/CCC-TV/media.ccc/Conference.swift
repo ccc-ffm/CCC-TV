@@ -10,6 +10,8 @@ import Foundation
 
 //  https://api.media.ccc.de/public/conferences
 
+var allConferences: [Conference] = []
+
 struct Conference {
     
     var title: String
@@ -26,7 +28,7 @@ struct Conference {
     
     var images_url: NSURL
     
-    var recordings_url: NSURL
+    var recordings_url: NSURL?
     
     var webgen_location: String
     

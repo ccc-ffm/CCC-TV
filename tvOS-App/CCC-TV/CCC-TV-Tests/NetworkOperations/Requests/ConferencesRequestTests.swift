@@ -37,7 +37,6 @@ class ConferencesRequestTests: XCTestCase {
             
         }
 
-        
         waitForExpectationsWithTimeout(10, handler: { error in
             XCTAssertNil(error, "Error in Expectations")
             

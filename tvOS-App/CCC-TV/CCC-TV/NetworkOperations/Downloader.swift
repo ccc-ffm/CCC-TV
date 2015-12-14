@@ -14,7 +14,7 @@ class Downloader {
     
     func performDownload(completionHandler callback: (()->())? = nil){
         // conferences
-        let conferencesDownloader = DownloadOperation()
+        let conferencesDownloader = DownloadConferencesOperation()
         
         conferencesDownloader.completionBlock = {
             print("# conferencesDownloader finish")

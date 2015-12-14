@@ -20,8 +20,12 @@
 		0182E2FF1C1DB224007CB351 /* Requestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0182E2F51C1DAC34007CB351 /* Requestable.swift */; };
 		0187C2201C1A2055007CB351 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0187C21F1C1A2055007CB351 /* Item.swift */; };
 		0187C2221C1A21A5007CB351 /* Conference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0187C2211C1A21A5007CB351 /* Conference.swift */; };
-		0187C2251C1A22C9007CB351 /* DownloadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0187C2241C1A22C9007CB351 /* DownloadOperation.swift */; };
+		0187C2251C1A22C9007CB351 /* DownloadConferencesOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0187C2241C1A22C9007CB351 /* DownloadConferencesOperation.swift */; };
 		0187C2271C1A27AA007CB351 /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0187C2261C1A27AA007CB351 /* Downloader.swift */; };
+		01A00E731C1DB86D007CB351 /* DownloaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A00E721C1DB86D007CB351 /* DownloaderTests.swift */; };
+		01A00E741C1F1030007CB351 /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0187C2261C1A27AA007CB351 /* Downloader.swift */; };
+		01A00E751C1F1034007CB351 /* DownloadConferencesOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0187C2241C1A22C9007CB351 /* DownloadConferencesOperation.swift */; };
+		01A00E761C1F137F007CB351 /* Conference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0187C2211C1A21A5007CB351 /* Conference.swift */; };
 		01B5D8F81BD66CF5007CB351 /* SettingsExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B5D8F71BD66CF5007CB351 /* SettingsExport.swift */; };
 		736AFF2B7681CF32D6FA60E0 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BB5CABC2D9301F2CE977FC8 /* Pods.framework */; };
 		98FE7435E6F39C9263F733E2 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BB5CABC2D9301F2CE977FC8 /* Pods.framework */; };
@@ -52,8 +56,9 @@
 		0182E2FC1C1DB1FF007CB351 /* ConferencesRequestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConferencesRequestTests.swift; path = NetworkOperations/Requests/ConferencesRequestTests.swift; sourceTree = "<group>"; };
 		0187C21F1C1A2055007CB351 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Item.swift; path = media.ccc/Item.swift; sourceTree = "<group>"; };
 		0187C2211C1A21A5007CB351 /* Conference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Conference.swift; path = media.ccc/Conference.swift; sourceTree = "<group>"; };
-		0187C2241C1A22C9007CB351 /* DownloadOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DownloadOperation.swift; path = NetworkOperations/DownloadOperation.swift; sourceTree = "<group>"; };
+		0187C2241C1A22C9007CB351 /* DownloadConferencesOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DownloadConferencesOperation.swift; path = NetworkOperations/DownloadConferencesOperation.swift; sourceTree = "<group>"; };
 		0187C2261C1A27AA007CB351 /* Downloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Downloader.swift; path = NetworkOperations/Downloader.swift; sourceTree = "<group>"; };
+		01A00E721C1DB86D007CB351 /* DownloaderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DownloaderTests.swift; path = NetworkOperations/DownloaderTests.swift; sourceTree = "<group>"; };
 		01B5D8F71BD66CF5007CB351 /* SettingsExport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsExport.swift; path = Exports/SettingsExport.swift; sourceTree = "<group>"; };
 		156A5574881BE512D0CA9921 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		1BB5CABC2D9301F2CE977FC8 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				0182E2FB1C1DB1CF007CB351 /* Requests */,
+				01A00E721C1DB86D007CB351 /* DownloaderTests.swift */,
 			);
 			name = NetworkOperations;
 			sourceTree = "<group>";
@@ -170,7 +176,7 @@
 		0187C2231C1A2275007CB351 /* NetworkOperations */ = {
 			isa = PBXGroup;
 			children = (
-				0187C2241C1A22C9007CB351 /* DownloadOperation.swift */,
+				0187C2241C1A22C9007CB351 /* DownloadConferencesOperation.swift */,
 				0187C2261C1A27AA007CB351 /* Downloader.swift */,
 				0182E2F51C1DAC34007CB351 /* Requestable.swift */,
 				0182E2F71C1DAE2D007CB351 /* Requests */,
@@ -406,7 +412,7 @@
 				0187C2201C1A2055007CB351 /* Item.swift in Sources */,
 				0182E2F61C1DAC34007CB351 /* Requestable.swift in Sources */,
 				0187C2271C1A27AA007CB351 /* Downloader.swift in Sources */,
-				0187C2251C1A22C9007CB351 /* DownloadOperation.swift in Sources */,
+				0187C2251C1A22C9007CB351 /* DownloadConferencesOperation.swift in Sources */,
 				010BAB5E1BCC7032007CB351 /* AppDelegate.swift in Sources */,
 				0187C2221C1A21A5007CB351 /* Conference.swift in Sources */,
 				01B5D8F81BD66CF5007CB351 /* SettingsExport.swift in Sources */,
@@ -418,11 +424,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01A00E731C1DB86D007CB351 /* DownloaderTests.swift in Sources */,
 				01733F571C1A185A007CB351 /* SettingsExportTest.swift in Sources */,
+				01A00E741C1F1030007CB351 /* Downloader.swift in Sources */,
 				0141D7CF1C1A1AE3007CB351 /* SettingsExport.swift in Sources */,
 				0182E2FE1C1DB221007CB351 /* ConferencesRequest.swift in Sources */,
 				0182E2FF1C1DB224007CB351 /* Requestable.swift in Sources */,
 				01733F4E1C1A1425007CB351 /* CCC_TV_Tests.swift in Sources */,
+				01A00E761C1F137F007CB351 /* Conference.swift in Sources */,
+				01A00E751C1F1034007CB351 /* DownloadConferencesOperation.swift in Sources */,
 				0182E2FD1C1DB1FF007CB351 /* ConferencesRequestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
