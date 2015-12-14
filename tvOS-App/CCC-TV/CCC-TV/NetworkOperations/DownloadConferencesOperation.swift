@@ -25,8 +25,10 @@ class DownloadConferencesOperation: NSOperation {
         }
     }
     
+    let dateFormatter = NSDateFormatter()
+    
     override init(){
-        
+        dateFormatter.dateFormat = "yyyy-MM-dd'T'kk:mm:ss.SSSxxxxx"
     }
     
     override func main() {
@@ -45,7 +47,7 @@ class DownloadConferencesOperation: NSOperation {
                           title: subJson["title"].stringValue
                         , acronym: subJson["acronym"].stringValue
                         , logo_url: NSURL(string: subJson["logo_url"].stringValue)!
-                        , updated_at: NSDate()
+                        , updated_at: self.dateFormatter.dateFromString(subJson["updated_at"].stringValue)!
                         , aspect_ratio: subJson["aspect_ratio"].stringValue
                         , schedule_url: NSURL(string: subJson["schedule_url"].stringValue)!
                         , images_url: NSURL(string: subJson["images_url"].stringValue)!
@@ -57,6 +59,7 @@ class DownloadConferencesOperation: NSOperation {
                     allConferences.append(conference)
                 }
             }
+            allConferences.sortInPlace({ $0.updated_at.compare($1.updated_at) == NSComparisonResult.OrderedAscending })
             
             self._finished = true
         }

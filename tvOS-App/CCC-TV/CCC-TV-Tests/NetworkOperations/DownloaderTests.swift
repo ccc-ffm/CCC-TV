@@ -58,5 +58,26 @@ class DownloaderTests: XCTestCase {
             XCTAssert(allConferences.count > 0)
         })
     }
+    
+    func testConferenceSorting() {
+        let downloader = Downloader()
+        let readyExpectation = expectationWithDescription("ready")
+        
+        downloader.performDownload(){
+            XCTAssert(allConferences.count > 2)
+            
+            print("DATE 1 : \(allConferences.first!.updated_at)")
+            print("DATE 2 : \(allConferences.last!.updated_at)")
+            
+            XCTAssertTrue(allConferences.last!.updated_at.timeIntervalSinceDate(allConferences.first!.updated_at) >= 0)
+            
+            readyExpectation.fulfill()
+        }
+        
+        waitForExpectationsWithTimeout(10, handler: { error in
+            XCTAssertNil(error, "Error in Expectations")
+            
+        })
+    }
 
 }
