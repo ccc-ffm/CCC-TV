@@ -7,10 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01017D171C1F37FF007CB351 /* ConferencesExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01017D161C1F37FF007CB351 /* ConferencesExport.swift */; };
+		01017D191C1F3ECE007CB351 /* LogExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01017D181C1F3ECE007CB351 /* LogExporter.swift */; };
 		010BAB5E1BCC7032007CB351 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010BAB5D1BCC7032007CB351 /* AppDelegate.swift */; };
 		010BAB631BCC7032007CB351 /* CCC_TV.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 010BAB611BCC7032007CB351 /* CCC_TV.xcdatamodeld */; };
 		010BAB681BCC7032007CB351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 010BAB671BCC7032007CB351 /* Assets.xcassets */; };
 		0141D7CF1C1A1AE3007CB351 /* SettingsExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B5D8F71BD66CF5007CB351 /* SettingsExport.swift */; };
+		01489CD21C21B2DD007CB351 /* EventsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01489CD11C21B2DD007CB351 /* EventsRequest.swift */; };
+		01489CD31C21B2DD007CB351 /* EventsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01489CD11C21B2DD007CB351 /* EventsRequest.swift */; };
+		01489CD51C21B797007CB351 /* EventsRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01489CD41C21B797007CB351 /* EventsRequestTests.swift */; };
+		01489CD71C21B871007CB351 /* DownloadEventsOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01489CD61C21B871007CB351 /* DownloadEventsOperation.swift */; };
+		01489CD81C21B871007CB351 /* DownloadEventsOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01489CD61C21B871007CB351 /* DownloadEventsOperation.swift */; };
 		01733F4E1C1A1425007CB351 /* CCC_TV_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01733F4D1C1A1425007CB351 /* CCC_TV_Tests.swift */; };
 		01733F571C1A185A007CB351 /* SettingsExportTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01733F561C1A185A007CB351 /* SettingsExportTest.swift */; };
 		0182E2F61C1DAC34007CB351 /* Requestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0182E2F51C1DAC34007CB351 /* Requestable.swift */; };
@@ -18,7 +25,7 @@
 		0182E2FD1C1DB1FF007CB351 /* ConferencesRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0182E2FC1C1DB1FF007CB351 /* ConferencesRequestTests.swift */; };
 		0182E2FE1C1DB221007CB351 /* ConferencesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0182E2F81C1DAE58007CB351 /* ConferencesRequest.swift */; };
 		0182E2FF1C1DB224007CB351 /* Requestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0182E2F51C1DAC34007CB351 /* Requestable.swift */; };
-		0187C2201C1A2055007CB351 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0187C21F1C1A2055007CB351 /* Item.swift */; };
+		0187C2201C1A2055007CB351 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0187C21F1C1A2055007CB351 /* Event.swift */; };
 		0187C2221C1A21A5007CB351 /* Conference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0187C2211C1A21A5007CB351 /* Conference.swift */; };
 		0187C2251C1A22C9007CB351 /* DownloadConferencesOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0187C2241C1A22C9007CB351 /* DownloadConferencesOperation.swift */; };
 		0187C2271C1A27AA007CB351 /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0187C2261C1A27AA007CB351 /* Downloader.swift */; };
@@ -42,11 +49,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01017D161C1F37FF007CB351 /* ConferencesExport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConferencesExport.swift; path = Exports/ConferencesExport.swift; sourceTree = "<group>"; };
+		01017D181C1F3ECE007CB351 /* LogExporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogExporter.swift; path = Exports/LogExporter.swift; sourceTree = "<group>"; };
 		010BAB5A1BCC7032007CB351 /* CCCtv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCCtv.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		010BAB5D1BCC7032007CB351 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AppDelegate.swift; sourceTree = "<group>"; };
 		010BAB621BCC7032007CB351 /* CCC_TV.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CCC_TV.xcdatamodel; sourceTree = "<group>"; };
 		010BAB671BCC7032007CB351 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		010BAB691BCC7032007CB351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01489CD11C21B2DD007CB351 /* EventsRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventsRequest.swift; path = NetworkOperations/Requests/EventsRequest.swift; sourceTree = "<group>"; };
+		01489CD41C21B797007CB351 /* EventsRequestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventsRequestTests.swift; path = NetworkOperations/Requests/EventsRequestTests.swift; sourceTree = "<group>"; };
+		01489CD61C21B871007CB351 /* DownloadEventsOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DownloadEventsOperation.swift; path = NetworkOperations/DownloadEventsOperation.swift; sourceTree = "<group>"; };
 		01733F4B1C1A1425007CB351 /* CCCtv.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCCtv.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01733F4D1C1A1425007CB351 /* CCC_TV_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCC_TV_Tests.swift; sourceTree = "<group>"; };
 		01733F4F1C1A1425007CB351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,7 +66,7 @@
 		0182E2F51C1DAC34007CB351 /* Requestable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Requestable.swift; sourceTree = "<group>"; };
 		0182E2F81C1DAE58007CB351 /* ConferencesRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConferencesRequest.swift; path = NetworkOperations/Requests/ConferencesRequest.swift; sourceTree = "<group>"; };
 		0182E2FC1C1DB1FF007CB351 /* ConferencesRequestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConferencesRequestTests.swift; path = NetworkOperations/Requests/ConferencesRequestTests.swift; sourceTree = "<group>"; };
-		0187C21F1C1A2055007CB351 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Item.swift; path = media.ccc/Item.swift; sourceTree = "<group>"; };
+		0187C21F1C1A2055007CB351 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Event.swift; path = media.ccc/Event.swift; sourceTree = "<group>"; };
 		0187C2211C1A21A5007CB351 /* Conference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Conference.swift; path = media.ccc/Conference.swift; sourceTree = "<group>"; };
 		0187C2241C1A22C9007CB351 /* DownloadConferencesOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DownloadConferencesOperation.swift; path = NetworkOperations/DownloadConferencesOperation.swift; sourceTree = "<group>"; };
 		0187C2261C1A27AA007CB351 /* Downloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Downloader.swift; path = NetworkOperations/Downloader.swift; sourceTree = "<group>"; };
@@ -143,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				0182E2F81C1DAE58007CB351 /* ConferencesRequest.swift */,
+				01489CD11C21B2DD007CB351 /* EventsRequest.swift */,
 			);
 			name = Requests;
 			sourceTree = "<group>";
@@ -160,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				0182E2FC1C1DB1FF007CB351 /* ConferencesRequestTests.swift */,
+				01489CD41C21B797007CB351 /* EventsRequestTests.swift */,
 			);
 			name = Requests;
 			sourceTree = "<group>";
@@ -167,8 +181,8 @@
 		0187C21E1C1A1FF9007CB351 /* media.ccc */ = {
 			isa = PBXGroup;
 			children = (
-				0187C21F1C1A2055007CB351 /* Item.swift */,
 				0187C2211C1A21A5007CB351 /* Conference.swift */,
+				0187C21F1C1A2055007CB351 /* Event.swift */,
 			);
 			name = media.ccc;
 			sourceTree = "<group>";
@@ -176,10 +190,11 @@
 		0187C2231C1A2275007CB351 /* NetworkOperations */ = {
 			isa = PBXGroup;
 			children = (
-				0187C2241C1A22C9007CB351 /* DownloadConferencesOperation.swift */,
 				0187C2261C1A27AA007CB351 /* Downloader.swift */,
 				0182E2F51C1DAC34007CB351 /* Requestable.swift */,
 				0182E2F71C1DAE2D007CB351 /* Requests */,
+				0187C2241C1A22C9007CB351 /* DownloadConferencesOperation.swift */,
+				01489CD61C21B871007CB351 /* DownloadEventsOperation.swift */,
 			);
 			name = NetworkOperations;
 			sourceTree = "<group>";
@@ -188,6 +203,8 @@
 			isa = PBXGroup;
 			children = (
 				01B5D8F71BD66CF5007CB351 /* SettingsExport.swift */,
+				01017D161C1F37FF007CB351 /* ConferencesExport.swift */,
+				01017D181C1F3ECE007CB351 /* LogExporter.swift */,
 			);
 			name = Exports;
 			sourceTree = "<group>";
@@ -408,15 +425,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01017D191C1F3ECE007CB351 /* LogExporter.swift in Sources */,
 				0182E2F91C1DAE58007CB351 /* ConferencesRequest.swift in Sources */,
-				0187C2201C1A2055007CB351 /* Item.swift in Sources */,
+				01017D171C1F37FF007CB351 /* ConferencesExport.swift in Sources */,
+				0187C2201C1A2055007CB351 /* Event.swift in Sources */,
 				0182E2F61C1DAC34007CB351 /* Requestable.swift in Sources */,
 				0187C2271C1A27AA007CB351 /* Downloader.swift in Sources */,
 				0187C2251C1A22C9007CB351 /* DownloadConferencesOperation.swift in Sources */,
 				010BAB5E1BCC7032007CB351 /* AppDelegate.swift in Sources */,
+				01489CD21C21B2DD007CB351 /* EventsRequest.swift in Sources */,
 				0187C2221C1A21A5007CB351 /* Conference.swift in Sources */,
 				01B5D8F81BD66CF5007CB351 /* SettingsExport.swift in Sources */,
 				010BAB631BCC7032007CB351 /* CCC_TV.xcdatamodeld in Sources */,
+				01489CD71C21B871007CB351 /* DownloadEventsOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,12 +449,15 @@
 				01733F571C1A185A007CB351 /* SettingsExportTest.swift in Sources */,
 				01A00E741C1F1030007CB351 /* Downloader.swift in Sources */,
 				0141D7CF1C1A1AE3007CB351 /* SettingsExport.swift in Sources */,
+				01489CD51C21B797007CB351 /* EventsRequestTests.swift in Sources */,
+				01489CD31C21B2DD007CB351 /* EventsRequest.swift in Sources */,
 				0182E2FE1C1DB221007CB351 /* ConferencesRequest.swift in Sources */,
 				0182E2FF1C1DB224007CB351 /* Requestable.swift in Sources */,
 				01733F4E1C1A1425007CB351 /* CCC_TV_Tests.swift in Sources */,
 				01A00E761C1F137F007CB351 /* Conference.swift in Sources */,
 				01A00E751C1F1034007CB351 /* DownloadConferencesOperation.swift in Sources */,
 				0182E2FD1C1DB1FF007CB351 /* ConferencesRequestTests.swift in Sources */,
+				01489CD81C21B871007CB351 /* DownloadEventsOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

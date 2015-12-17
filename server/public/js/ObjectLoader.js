@@ -35,7 +35,7 @@ ObjectLoader.prototype.getResource = function(url, callback) {
 			return callback(null, Cache["URL~"+ url]);
 		}
 	}
-	
+	Log.Info(url);
 	xreq.open("GET", url);
 	xreq.onreadystatechange = function(){
 		if (xreq.readyState == 4 && xreq.status == 200){	

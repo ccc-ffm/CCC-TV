@@ -59,13 +59,10 @@ class DownloadConferencesOperation: NSOperation {
                     allConferences.append(conference)
                 }
             }
-            allConferences.sortInPlace({ $0.updated_at.compare($1.updated_at) == NSComparisonResult.OrderedAscending })
+            allConferences.sortInPlace({ $0.updated_at.compare($1.updated_at) == NSComparisonResult.OrderedDescending })
             
             self._finished = true
         }
     
     }
-    
-    
-    
 }

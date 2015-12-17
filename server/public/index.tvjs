@@ -16,8 +16,11 @@ var html = `<?xml version="1.0" encoding="UTF-8" ?>
 <document>
   <menuBarTemplate>
     <menuBar>
-      <menuItem template="${this.BASEURL}/templates/Catalog.xml.js" section="conferences" presentation="menuBarItemPresenter">
+      <menuItem template="${this.BASEURL}/templates/Conferences.xml.js" section="conferences" presentation="menuBarItemPresenter">
         <title>Events</title>
+      </menuItem>    
+      <menuItem template="${this.BASEURL}/templates/Catalog.xml.js" section="conferences" presentation="menuBarItemPresenter">
+        <title>Events (old)</title>
       </menuItem>
 	  <menuItem template="${this.BASEURL}/about.tvml" presentation="menuBarItemPresenter">
         <title>About</title>

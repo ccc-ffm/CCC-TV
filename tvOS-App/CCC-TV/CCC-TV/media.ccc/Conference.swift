@@ -14,26 +14,26 @@ var allConferences: [Conference] = []
 
 struct Conference {
     
-    var title: String
+    var title: String = ""
 
-    var acronym: String
+    var acronym: String = ""
     
-    var logo_url: NSURL
+    var logo_url: NSURL = NSURL()
     
-    var updated_at: NSDate
+    var updated_at: NSDate = NSDate()
     
-    var aspect_ratio: String
+    var aspect_ratio: String = ""
     
-    var schedule_url: NSURL
+    var schedule_url: NSURL = NSURL()
     
-    var images_url: NSURL
+    var images_url: NSURL = NSURL()
     
     var recordings_url: NSURL?
     
-    var webgen_location: String
+    var webgen_location: String = ""
     
-    var slug: String
+    var slug: String = ""
     
-    var url: NSURL
-    
+    var url: NSURL = NSURL()
+
 }

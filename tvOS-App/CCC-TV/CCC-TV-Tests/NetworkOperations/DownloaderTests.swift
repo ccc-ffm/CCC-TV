@@ -12,7 +12,7 @@ class DownloaderTests: XCTestCase {
 
     override func setUp() {
         super.setUp()
-
+        allConferences.removeAll()
     }
     
     override func tearDown() {

@@ -21,7 +21,7 @@ protocol Requestable {
     var jsonData: JSON { get set }
     var requestUrl: String { get }
     
-    init()
+    //init()
 }
 
 
