@@ -9,6 +9,22 @@
 /* Begin PBXBuildFile section */
 		01017D171C1F37FF007CB351 /* ConferencesExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01017D161C1F37FF007CB351 /* ConferencesExport.swift */; };
 		01017D191C1F3ECE007CB351 /* LogExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01017D181C1F3ECE007CB351 /* LogExporter.swift */; };
+		010A4ADF1C246B25007CB351 /* LogExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01017D181C1F3ECE007CB351 /* LogExporter.swift */; };
+		010A4AE01C246B25007CB351 /* ConferencesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0182E2F81C1DAE58007CB351 /* ConferencesRequest.swift */; };
+		010A4AE11C246B25007CB351 /* ConferencesExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01017D161C1F37FF007CB351 /* ConferencesExport.swift */; };
+		010A4AE21C246B25007CB351 /* CensoredEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010F19121C241D8D007CB351 /* CensoredEvents.swift */; };
+		010A4AE31C246B25007CB351 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0187C21F1C1A2055007CB351 /* Event.swift */; };
+		010A4AE41C246B25007CB351 /* Requestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0182E2F51C1DAC34007CB351 /* Requestable.swift */; };
+		010A4AE51C246B25007CB351 /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0187C2261C1A27AA007CB351 /* Downloader.swift */; };
+		010A4AE61C246B25007CB351 /* DownloadConferencesOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0187C2241C1A22C9007CB351 /* DownloadConferencesOperation.swift */; };
+		010A4AE71C246B25007CB351 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010BAB5D1BCC7032007CB351 /* AppDelegate.swift */; };
+		010A4AE81C246B25007CB351 /* EventsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01489CD11C21B2DD007CB351 /* EventsRequest.swift */; };
+		010A4AE91C246B25007CB351 /* Conference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0187C2211C1A21A5007CB351 /* Conference.swift */; };
+		010A4AEA1C246B25007CB351 /* SettingsExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B5D8F71BD66CF5007CB351 /* SettingsExport.swift */; };
+		010A4AEB1C246B25007CB351 /* CCC_TV.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 010BAB611BCC7032007CB351 /* CCC_TV.xcdatamodeld */; };
+		010A4AEC1C246B25007CB351 /* DownloadEventsOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01489CD61C21B871007CB351 /* DownloadEventsOperation.swift */; };
+		010A4AEE1C246B25007CB351 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BB5CABC2D9301F2CE977FC8 /* Pods.framework */; };
+		010A4AF01C246B25007CB351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 010BAB671BCC7032007CB351 /* Assets.xcassets */; };
 		010BAB5E1BCC7032007CB351 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010BAB5D1BCC7032007CB351 /* AppDelegate.swift */; };
 		010BAB631BCC7032007CB351 /* CCC_TV.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 010BAB611BCC7032007CB351 /* CCC_TV.xcdatamodeld */; };
 		010BAB681BCC7032007CB351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 010BAB671BCC7032007CB351 /* Assets.xcassets */; };
@@ -53,6 +69,8 @@
 /* Begin PBXFileReference section */
 		01017D161C1F37FF007CB351 /* ConferencesExport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConferencesExport.swift; path = Exports/ConferencesExport.swift; sourceTree = "<group>"; };
 		01017D181C1F3ECE007CB351 /* LogExporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogExporter.swift; path = Exports/LogExporter.swift; sourceTree = "<group>"; };
+		010A4AF61C246B25007CB351 /* CCCtv (Production).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CCCtv (Production).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		010A4AF71C246B25007CB351 /* CCCtv copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CCCtv copy-Info.plist"; path = "/Users/kris/Projects/ausdertechnik.de/Applications/Public/CCC-TV/tvOS-App/CCC-TV/CCCtv copy-Info.plist"; sourceTree = "<absolute>"; };
 		010BAB5A1BCC7032007CB351 /* CCCtv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCCtv.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		010BAB5D1BCC7032007CB351 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AppDelegate.swift; sourceTree = "<group>"; };
 		010BAB621BCC7032007CB351 /* CCC_TV.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CCC_TV.xcdatamodel; sourceTree = "<group>"; };
@@ -81,6 +99,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		010A4AED1C246B25007CB351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010A4AEE1C246B25007CB351 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		010BAB571BCC7032007CB351 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -108,6 +134,7 @@
 				613466F04B15507ED9F84B8D /* Pods */,
 				780357042C6BA944CACAAF59 /* Frameworks */,
 				01733F4C1C1A1425007CB351 /* CCC-TV-Tests */,
+				010A4AF71C246B25007CB351 /* CCCtv copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 			usesTabs = 0;
@@ -117,6 +144,7 @@
 			children = (
 				010BAB5A1BCC7032007CB351 /* CCCtv.app */,
 				01733F4B1C1A1425007CB351 /* CCCtv.xctest */,
+				010A4AF61C246B25007CB351 /* CCCtv (Production).app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -241,6 +269,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		010A4ADC1C246B25007CB351 /* CCCtv (Production) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 010A4AF31C246B25007CB351 /* Build configuration list for PBXNativeTarget "CCCtv (Production)" */;
+			buildPhases = (
+				010A4ADD1C246B25007CB351 /* Check Pods Manifest.lock */,
+				010A4ADE1C246B25007CB351 /* Sources */,
+				010A4AED1C246B25007CB351 /* Frameworks */,
+				010A4AEF1C246B25007CB351 /* Resources */,
+				010A4AF11C246B25007CB351 /* Embed Pods Frameworks */,
+				010A4AF21C246B25007CB351 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CCCtv (Production)";
+			productName = "CCC-TV";
+			productReference = 010A4AF61C246B25007CB351 /* CCCtv (Production).app */;
+			productType = "com.apple.product-type.application";
+		};
 		010BAB591BCC7032007CB351 /* CCCtv */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 010BAB6C1BCC7032007CB351 /* Build configuration list for PBXNativeTarget "CCCtv" */;
@@ -316,12 +364,21 @@
 			projectRoot = "";
 			targets = (
 				010BAB591BCC7032007CB351 /* CCCtv */,
+				010A4ADC1C246B25007CB351 /* CCCtv (Production) */,
 				01733F4A1C1A1425007CB351 /* CCCtv-Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		010A4AEF1C246B25007CB351 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010A4AF01C246B25007CB351 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		010BAB581BCC7032007CB351 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -340,6 +397,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		010A4ADD1C246B25007CB351 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		010A4AF11C246B25007CB351 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		010A4AF21C246B25007CB351 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		159DF6E048F506A72B803248 /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -433,6 +535,27 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		010A4ADE1C246B25007CB351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010A4ADF1C246B25007CB351 /* LogExporter.swift in Sources */,
+				010A4AE01C246B25007CB351 /* ConferencesRequest.swift in Sources */,
+				010A4AE11C246B25007CB351 /* ConferencesExport.swift in Sources */,
+				010A4AE21C246B25007CB351 /* CensoredEvents.swift in Sources */,
+				010A4AE31C246B25007CB351 /* Event.swift in Sources */,
+				010A4AE41C246B25007CB351 /* Requestable.swift in Sources */,
+				010A4AE51C246B25007CB351 /* Downloader.swift in Sources */,
+				010A4AE61C246B25007CB351 /* DownloadConferencesOperation.swift in Sources */,
+				010A4AE71C246B25007CB351 /* AppDelegate.swift in Sources */,
+				010A4AE81C246B25007CB351 /* EventsRequest.swift in Sources */,
+				010A4AE91C246B25007CB351 /* Conference.swift in Sources */,
+				010A4AEA1C246B25007CB351 /* SettingsExport.swift in Sources */,
+				010A4AEB1C246B25007CB351 /* CCC_TV.xcdatamodeld in Sources */,
+				010A4AEC1C246B25007CB351 /* DownloadEventsOperation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		010BAB561BCC7032007CB351 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -486,6 +609,38 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		010A4AF41C246B25007CB351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CC0E9B7EC4B3FDF30DCB5A8 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				INFOPLIST_FILE = "CCCtv copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.ausdertechnik.CCC-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		010A4AF51C246B25007CB351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 156A5574881BE512D0CA9921 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				INFOPLIST_FILE = "CCCtv copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.ausdertechnik.CCC-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
 		010BAB6A1BCC7032007CB351 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -577,7 +732,7 @@
 				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
 				INFOPLIST_FILE = "CCC-TV/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = de.ausdertechnik.CCCtv;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.ausdertechnik.CCC-TV";
 				PRODUCT_NAME = CCCtv;
 				TVOS_DEPLOYMENT_TARGET = 9.1;
 			};
@@ -593,7 +748,7 @@
 				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
 				INFOPLIST_FILE = "CCC-TV/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = de.ausdertechnik.CCCtv;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.ausdertechnik.CCC-TV";
 				PRODUCT_NAME = CCCtv;
 				TVOS_DEPLOYMENT_TARGET = 9.1;
 			};
@@ -634,6 +789,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		010A4AF31C246B25007CB351 /* Build configuration list for PBXNativeTarget "CCCtv (Production)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				010A4AF41C246B25007CB351 /* Debug */,
+				010A4AF51C246B25007CB351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		010BAB551BCC7032007CB351 /* Build configuration list for PBXProject "CCCtv" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

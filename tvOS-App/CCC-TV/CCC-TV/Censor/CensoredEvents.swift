@@ -12,7 +12,7 @@ struct CensoredEvent {
     let guid: String
 }
 
-let censordEventList: [CensoredEvent] = [
+let censoredEventList: [CensoredEvent] = [
     // Hardware attacks: hacking chips on the (very) cheap
     CensoredEvent(guid: "0e66ac36-d9c6-4900-b532-4f651dd39582")
 
