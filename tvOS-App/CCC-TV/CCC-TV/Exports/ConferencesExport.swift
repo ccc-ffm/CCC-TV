@@ -107,7 +107,7 @@ class ConferencesExport: NSObject, ConferencesExportProtocol {
     }
     
     func isCensored(guid: String) -> Bool {
-        return censordEventList.filter({$0.guid == guid}).count > 0
+        return censoredEventList.filter({$0.guid == guid}).count > 0
     }
 }
 
