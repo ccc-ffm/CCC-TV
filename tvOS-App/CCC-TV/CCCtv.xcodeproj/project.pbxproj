@@ -577,7 +577,7 @@
 				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
 				INFOPLIST_FILE = "CCC-TV/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = de.ausdertechnik.CCCtv;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.ausdertechnik.CCC-TV";
 				PRODUCT_NAME = CCCtv;
 				TVOS_DEPLOYMENT_TARGET = 9.1;
 			};
@@ -593,7 +593,7 @@
 				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
 				INFOPLIST_FILE = "CCC-TV/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = de.ausdertechnik.CCCtv;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.ausdertechnik.CCC-TV";
 				PRODUCT_NAME = CCCtv;
 				TVOS_DEPLOYMENT_TARGET = 9.1;
 			};
