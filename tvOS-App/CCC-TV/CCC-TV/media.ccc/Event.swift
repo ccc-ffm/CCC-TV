@@ -9,7 +9,7 @@
 import Foundation
 
 
-var allEvents: [Event] = []
+var allEvents: Dictionary<Int, [Event]> = Dictionary()
 
 struct Event {
     

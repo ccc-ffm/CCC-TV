@@ -44,7 +44,10 @@ class DownloadEventsOperation: NSOperation {
                 for (_,subJson):(String, JSON) in _data {
                     let guid = subJson["guid"].stringValue
                     NSLog("** Download event \(guid)")
-                    allEvents = allEvents.filter({$0.guid != guid})
+                    if(allEvents.keys.contains(self.eventId) == false){
+                       allEvents[self.eventId] = []
+                    }
+                    allEvents[self.eventId] = allEvents[self.eventId]!.filter({$0.guid != guid})
                     var defaultDate = "1970-01-01T00:00:00.000+00:00"
                     if(subJson["date"].isExists() && subJson["date"].stringValue != ""){
                         defaultDate = subJson["date"].stringValue
@@ -75,11 +78,12 @@ class DownloadEventsOperation: NSOperation {
                     } else {
                         event.release_date = NSDate()
                     }
-                    allEvents.append(event)
+                    allEvents[self.eventId]!.append(event)
                 }
             }
-            allEvents.sortInPlace({ $0.date.compare($1.date) == NSComparisonResult.OrderedDescending })
-            
+            if(allEvents.keys.contains(self.eventId)){
+            allEvents[self.eventId]!.sortInPlace({ $0.date.compare($1.date) == NSComparisonResult.OrderedDescending })
+            }
             self._finished = true
         }
         

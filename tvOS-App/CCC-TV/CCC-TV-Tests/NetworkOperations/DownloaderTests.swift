@@ -69,7 +69,7 @@ class DownloaderTests: XCTestCase {
             print("DATE 1 : \(allConferences.first!.updated_at)")
             print("DATE 2 : \(allConferences.last!.updated_at)")
             
-            XCTAssertTrue(allConferences.last!.updated_at.timeIntervalSinceDate(allConferences.first!.updated_at) >= 0)
+            XCTAssertTrue(allConferences.last!.updated_at.timeIntervalSinceDate(allConferences.first!.updated_at) <= 0)
             
             readyExpectation.fulfill()
         }

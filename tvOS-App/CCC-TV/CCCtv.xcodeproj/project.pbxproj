@@ -33,6 +33,7 @@
 		01A00E741C1F1030007CB351 /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0187C2261C1A27AA007CB351 /* Downloader.swift */; };
 		01A00E751C1F1034007CB351 /* DownloadConferencesOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0187C2241C1A22C9007CB351 /* DownloadConferencesOperation.swift */; };
 		01A00E761C1F137F007CB351 /* Conference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0187C2211C1A21A5007CB351 /* Conference.swift */; };
+		01ADD2CF1C240FFF007CB351 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0187C21F1C1A2055007CB351 /* Event.swift */; };
 		01B5D8F81BD66CF5007CB351 /* SettingsExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B5D8F71BD66CF5007CB351 /* SettingsExport.swift */; };
 		736AFF2B7681CF32D6FA60E0 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BB5CABC2D9301F2CE977FC8 /* Pods.framework */; };
 		98FE7435E6F39C9263F733E2 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BB5CABC2D9301F2CE977FC8 /* Pods.framework */; };
@@ -457,6 +458,7 @@
 				01A00E761C1F137F007CB351 /* Conference.swift in Sources */,
 				01A00E751C1F1034007CB351 /* DownloadConferencesOperation.swift in Sources */,
 				0182E2FD1C1DB1FF007CB351 /* ConferencesRequestTests.swift in Sources */,
+				01ADD2CF1C240FFF007CB351 /* Event.swift in Sources */,
 				01489CD81C21B871007CB351 /* DownloadEventsOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
