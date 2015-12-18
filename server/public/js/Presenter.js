@@ -164,16 +164,17 @@ var Presenter = {
             ;
 
 		if(presentation == 'censoredDialogPresenter' && eventurl){
+			var link = ele.getAttribute("link");
 			var censoredTemplate = `<?xml version="1.0" encoding="UTF-8" ?>
 				<document>
 				  <descriptiveAlertTemplate>
 					<description>
-					  This content is not available on yout Apple TV
+					  This content is not available on your Apple TV
 					  
 it was rejected by the Apple review team, because content related to jailbreaking or hacking Apple devices is not acceptable in the App Store. 
 
 You can still watch the content in your browser: 
-${eventurl}
+${link}
 					</description>
 					<row>
 						<button>

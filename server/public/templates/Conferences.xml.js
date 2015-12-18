@@ -68,7 +68,7 @@ var Template = function CatalogTemplate(section, callback) {
 																	<title class="scrollTextOnHighlight">️${_.escape(event.title)}</title>
 																</lockup>`;
 													} else {
-														return `<lockup presentation="censoredDialogPresenter" file="${event.url}" eventurl="${item.url}">
+														return `<lockup presentation="censoredDialogPresenter" link="${event.link}" file="${event.url}" eventurl="${item.url}">
 																	<img src="${this.globaloptions.BASEURL}/resources/censored.jpg" width="308" height="174" />
 																	<title class="scrollTextOnHighlight">️${_.escape(event.title)}</title>
 																	<subtitle class="redText">not available on your apple tv</subtitle>
