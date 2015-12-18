@@ -62,10 +62,18 @@ var Template = function CatalogTemplate(section, callback) {
 											<grid>
 												<section id="list_${ident}">`;
 							tvml +=				_.map(item.events, function(event){
-													return `<lockup presentation="videoDialogPresenter" file="${event.url}" eventurl="${item.url}">
-																<img src="${event.poster_url}" width="308" height="174" />
-																<title class="scrollTextOnHighlight">️${_.escape(event.title)}</title>
-															</lockup>`;
+													if(Conference.isCensored(event.guid) == false){
+														return `<lockup presentation="videoDialogPresenter" file="${event.url}" eventurl="${item.url}">
+																	<img src="${event.poster_url}" width="308" height="174" />
+																	<title class="scrollTextOnHighlight">️${_.escape(event.title)}</title>
+																</lockup>`;
+													} else {
+														return `<lockup presentation="censoredDialogPresenter" file="${event.url}" eventurl="${item.url}">
+																	<img src="${this.globaloptions.BASEURL}/resources/censored.jpg" width="308" height="174" />
+																	<title class="scrollTextOnHighlight">️${_.escape(event.title)}</title>
+																	<subtitle class="redText">not available on your apple tv</subtitle>
+																</lockup>`;
+													}
 												}).join("");
 												
 							tvml += `			</section>
@@ -89,6 +97,9 @@ var Template = function CatalogTemplate(section, callback) {
 								<style>
 									.whiteText {
 										color: rgb(255, 255, 255);
+									}
+									.redText {
+										color: rgb(255, 0, 0);
 									}
 									.showTextOnHighlight {
 									  tv-text-highlight-style: show-on-highlight;

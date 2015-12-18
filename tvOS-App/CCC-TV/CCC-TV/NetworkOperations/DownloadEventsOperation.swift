@@ -43,7 +43,7 @@ class DownloadEventsOperation: NSOperation {
                 let _data = data["events"]
                 for (_,subJson):(String, JSON) in _data {
                     let guid = subJson["guid"].stringValue
-                    NSLog("** Download event \(guid)")
+                    NSLog("** Download event \(subJson["title"].stringValue) \(guid)")
                     if(allEvents.keys.contains(self.eventId) == false){
                        allEvents[self.eventId] = []
                     }

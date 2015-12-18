@@ -12,13 +12,14 @@ import TVMLKit
 @objc protocol ConferencesExportProtocol : JSExport {
     func getConferences(fn: JSValue) -> Array<Dictionary<String, String>>
     func eventsOfConference(url: NSString, fn: JSValue)
+    func isCensored(guid: String) -> Bool
 }
 
 
 class ConferencesExport: NSObject, ConferencesExportProtocol {
     
     let downloader = Downloader()
-    
+
     private func conferenceStructToObject() -> Array<Dictionary<String, String>> {
         return allConferences.map(){(conference: Conference) -> Dictionary<String, String> in
             return Dictionary(dictionaryLiteral:
@@ -44,7 +45,7 @@ class ConferencesExport: NSObject, ConferencesExportProtocol {
         for event in eventList {
             result.append(
                 Dictionary(dictionaryLiteral:
-                    ("title", event.title)
+                      ("title", event.title)
                     , ("subtitle", event.subtitle)
                     , ("description", event.description)
                     , ("length", "\(event.length)")
@@ -104,5 +105,10 @@ class ConferencesExport: NSObject, ConferencesExportProtocol {
             downloadQueue.addOperation(eventsDownloader)
         }
     }
+    
+    func isCensored(guid: String) -> Bool {
+        return censordEventList.filter({$0.guid == guid}).count > 0
+    }
 }
 
+ 

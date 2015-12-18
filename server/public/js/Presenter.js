@@ -163,6 +163,33 @@ var Presenter = {
             eventurl = ele.getAttribute("eventurl")
             ;
 
+		if(presentation == 'censoredDialogPresenter' && eventurl){
+			var censoredTemplate = `<?xml version="1.0" encoding="UTF-8" ?>
+				<document>
+				  <descriptiveAlertTemplate>
+					<description>
+					  This content is not available on yout Apple TV
+					  
+it was rejected by the Apple review team, because content related to jailbreaking or hacking Apple devices is not acceptable in the App Store. 
+
+You can still watch the content in your browser: 
+${eventurl}
+					</description>
+					<row>
+						<button>
+						  <text>hmm. :(</text>
+						</button>
+					</row>
+				  </descriptiveAlertTemplate>
+				</document>`;
+
+			var parser = new DOMParser();
+			var descriptionDoc = parser.parseFromString(censoredTemplate, "application/xml");
+			descriptionDoc.addEventListener("select", function(){
+				navigationDocument.dismissModal();
+			});  
+			self.modalDialogPresenter(descriptionDoc);
+		} else 
 		if(presentation == 'videoDialogPresenter' && file){
  			var objectLoader = new ObjectLoader();
  			async.parallel({
