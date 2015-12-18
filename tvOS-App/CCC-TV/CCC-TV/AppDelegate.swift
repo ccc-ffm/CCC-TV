@@ -13,6 +13,7 @@ import TVMLKit
 let build = NSBundle.mainBundle().infoDictionary?.indexForKey(kCFBundleVersionKey as String)
 let version = (NSBundle.mainBundle().infoDictionary?["CFBundleShortVersionString"]?.description)! as String
 
+var globalJsContext: JSContext?
 
 
 @UIApplicationMain
@@ -30,6 +31,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, TVApplicationControllerDe
             let version = (NSBundle.mainBundle().infoDictionary?["CFBundleShortVersionString"]?.description)! as String
             let environment: Dictionary = NSProcessInfo.processInfo().environment
             if let serverenvironment = environment["server-environment"] {
+                NSLog("Server environment \(serverenvironment).")
                 switch serverenvironment {
                 case "development":
                     return "http://localhost:9001"
@@ -38,6 +40,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, TVApplicationControllerDe
                 }
                 
             } else {
+                NSLog("No server environment set.")
                 return "http://atv-resources.ausdertechnik.de/CCC-TV/v\(version)"
             }
             
@@ -89,8 +92,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate, TVApplicationControllerDe
     
     func appController(appController: TVApplicationController, evaluateAppJavaScriptInContext jsContext: JSContext)
     {
+        globalJsContext = jsContext
         let settingsExport: SettingsExport = SettingsExport();
+        let logsExport: LogExport = LogExport();
+        let conferenceExporter: ConferencesExport = ConferencesExport()
         jsContext.setObject(settingsExport, forKeyedSubscript: "settingswrapper");
+        jsContext.setObject(logsExport, forKeyedSubscript: "Log");
+        jsContext.setObject(conferenceExporter, forKeyedSubscript: "Conference");
     }
     
     func appController(appController: TVApplicationController, didFailWithError error: NSError) {

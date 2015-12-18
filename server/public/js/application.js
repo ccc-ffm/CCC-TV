@@ -12,6 +12,7 @@ Abstract:
 */
 
 var resourceLoader;
+var globaloptions; 
 
 /**
  * @description The onLaunch callback is invoked after the application JavaScript 
@@ -25,6 +26,7 @@ var resourceLoader;
  * the URL that was used to retrieve the application JavaScript.
  */
 App.onLaunch = function(options) {
+	globaloptions = options
     var javascriptFiles = [
         `${options.BASEURL}/js/ResourceLoader.js`,
         `${options.BASEURL}/js/ObjectLoader.js`,
@@ -63,6 +65,8 @@ App.onLaunch = function(options) {
             throw ("Playback Example: unable to evaluate scripts.");
         }
     });
+    
+
 }
 
 /**
@@ -81,3 +85,21 @@ var createAlert = function(title, description) {
     var alertDoc = parser.parseFromString(alertString, "application/xml");
     return alertDoc
 }
+
+var updateUI = function(){
+	Log.Info("Update UI");
+	Presenter.removeLoadingIndicator();
+//	App.reload();	
+// 	navigationDocument.dismissModal();
+// 	navigationDocument.clear();
+
+     var index = resourceLoader.loadResource(`${globaloptions.BASEURL}/index.tvjs`, 
+     	"index",
+         function(resource) {
+         	var doc = Presenter.makeDocument(resource);
+             doc.addEventListener("select", Presenter.load.bind(Presenter));
+             navigationDocument.pushDocument(doc);
+         });
+
+ }
+ 	

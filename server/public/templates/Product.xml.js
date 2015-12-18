@@ -90,6 +90,7 @@ var Template = function ProductTemplate(model, callback) {
 			<% if(subtitle) { %>
 				<subtitle class="subtitle-bigger"><%= _.escape(subtitle) %></subtitle>
 			<% } %>
+			<!-- <subtitle ><%= guid %></subtitle> -->
 			<row>
 				<% _.each(tags, function(tag){ %>
 					<text><%= _.escape(tag) %></text>

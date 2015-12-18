@@ -80,6 +80,7 @@ var Presenter = {
             takes one argument, the item element.
             */
             var currentDoc = feature.getDocument(ele);
+                        
             /*
             To present a document within the menu bar, you need to associate it with the 
             menu bar item. This is accomplished by call the setDocument function on MenuBarDocument
@@ -121,6 +122,7 @@ var Presenter = {
 			player.play();
         }
         
+        // Show full video description
         if(action == 'show-description'){
 			var descriptionTemplate = `<?xml version="1.0" encoding="UTF-8" ?>
 				<document>
@@ -161,6 +163,34 @@ var Presenter = {
             eventurl = ele.getAttribute("eventurl")
             ;
 
+		if(presentation == 'censoredDialogPresenter' && eventurl){
+			var link = ele.getAttribute("link");
+			var censoredTemplate = `<?xml version="1.0" encoding="UTF-8" ?>
+				<document>
+				  <descriptiveAlertTemplate>
+					<description>
+					  This content is not available on your Apple TV
+					  
+it was rejected by the Apple review team, because content related to jailbreaking or hacking Apple devices is not acceptable in the App Store. 
+
+You can still watch the content in your browser: 
+${link}
+					</description>
+					<row>
+						<button>
+						  <text>hmm. :(</text>
+						</button>
+					</row>
+				  </descriptiveAlertTemplate>
+				</document>`;
+
+			var parser = new DOMParser();
+			var descriptionDoc = parser.parseFromString(censoredTemplate, "application/xml");
+			descriptionDoc.addEventListener("select", function(){
+				navigationDocument.dismissModal();
+			});  
+			self.modalDialogPresenter(descriptionDoc);
+		} else 
 		if(presentation == 'videoDialogPresenter' && file){
  			var objectLoader = new ObjectLoader();
  			async.parallel({
@@ -196,7 +226,7 @@ var Presenter = {
 							var doc = self.makeDocument(resource);				
 							self.defaultPresenter.call(self, doc);							
 							doc.addEventListener("select", self.loadVideo.bind(self) );  
-							doc.addEventListener("select", self.loadProduct.bind(self) ); 
+							doc.addEventListener("select", self.loadProduct.bind(self) );
 						}
 					 }
 				 ); 				
@@ -266,6 +296,26 @@ var Presenter = {
 						// Second listener for video content.
 						doc.addEventListener("select", self.loadProduct.bind(self) );  
 						
+//						// Dynamic fill content in the future...
+// 						var elementInQuestion = doc.getElementById("id_of_element");
+// 						if (elementInQuestion) {
+// 							var lookup = doc.createElement("lockup");
+// 							lookup.setAttribute("presentation", "videoDialogPresenter");
+// 							
+// 							var img = doc.createElement("img");
+// 							img.setAttribute("width", "308");
+// 							img.setAttribute("height", "174");
+// 							img.setAttribute("src", "");
+// 							
+// 							var title = doc.createElement("title");
+// 							var titletext = doc.createTextNode("Foo");
+// 							
+// 							title.appendChild(titletext);
+// 							lookup.appendChild(img);
+// 							lookup.appendChild(title);
+// 							elementInQuestion.appendChild(lookup);
+// 						}					
+						
                         /*
                         This is a convenience implementation for choosing the appropriate method to 
                         present the document. 
@@ -298,7 +348,7 @@ var Presenter = {
         var doc = Presenter.parser.parseFromString(resource, "application/xml");
         return doc;
     },
-
+    
     /**
      * @description This function handles the display of loading indicators.
      *
