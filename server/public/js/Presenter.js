@@ -268,28 +268,25 @@ var Presenter = {
 						// Second listener for video content.
 						doc.addEventListener("select", self.loadProduct.bind(self) );  
 						
-// 						doc.addEventListener("addItem", function(){
-// 							console.log("XXX");
-// 						});
-						var foo = doc.getElementById("foo");
-
-						if (foo) {
-							var lookup = doc.createElement("lockup");
-							lookup.setAttribute("presentation", "videoDialogPresenter");
-							
-							var img = doc.createElement("img");
-							img.setAttribute("width", "308");
-							img.setAttribute("height", "174");
-							img.setAttribute("src", "");
-							
-							var title = doc.createElement("title");
-							var titletext = doc.createTextNode("Foo");
-							
-							title.appendChild(titletext);
-							lookup.appendChild(img);
-							lookup.appendChild(title);
-							foo.appendChild(lookup);
-						}					
+//						// Dynamic fill content in the future...
+// 						var elementInQuestion = doc.getElementById("id_of_element");
+// 						if (elementInQuestion) {
+// 							var lookup = doc.createElement("lockup");
+// 							lookup.setAttribute("presentation", "videoDialogPresenter");
+// 							
+// 							var img = doc.createElement("img");
+// 							img.setAttribute("width", "308");
+// 							img.setAttribute("height", "174");
+// 							img.setAttribute("src", "");
+// 							
+// 							var title = doc.createElement("title");
+// 							var titletext = doc.createTextNode("Foo");
+// 							
+// 							title.appendChild(titletext);
+// 							lookup.appendChild(img);
+// 							lookup.appendChild(title);
+// 							elementInQuestion.appendChild(lookup);
+// 						}					
 						
                         /*
                         This is a convenience implementation for choosing the appropriate method to 
@@ -324,34 +321,6 @@ var Presenter = {
         return doc;
     },
     
-    addVideoItem: function(id, data){
-//     	console.log("+++ADD VIDEO ITEM+++");
-//     	Log.Info("+++ADD VIDEO ITEM+++");
-//     	
-//     	console.log( "Presenter", Presenter);
-//     	console.log( "Id", id);
-//     	console.log( "Data", data);
-//     	
-//     	_.map(navigationDocument.documents, function(doc){
-//     		console.log( "** ", doc);
-//     	});
-    	
-    	// list_${item.acronym}
-    	
-// 
-// 						tvml += _.map( _.sortBy(item.events, function(i){ return i.date}).reverse(), function(event){
-// 							cntEvent++;
-// 							var tvml = `<lockup presentation="videoDialogPresenter" file="${event.url}" eventurl="${item.url}">
-// 											<img src="${event.poster_url}" width="308" height="174" />
-// 											<title class="whiteText">${_.escape(event.title)}</title>
-// 										</lockup>`;
-// 										
-// 							return tvml;
-// 						}).join('');
-// 						    	
-    	
-    },
-
     /**
      * @description This function handles the display of loading indicators.
      *
