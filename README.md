@@ -10,15 +10,16 @@ A Fronted to the content from media.ccc.de for new the Apple Tv.
 ![About the app](./resources/graphics/tsi.png)
 
 ### English ###
+The Chaos Computer Club is Europe's largest hacker community and allows people from all over the world, with a large variety of interests, to meet up
+and discuss various topics.
 
-The Chaos Computer Club is besides being Europes largest Hacker Association a great fusion for manifoldly interested people all over the world.
-They mostly meet up in small get–togethers but meet as well on huge conferences. They talk to each other, they teach each other and they do everything to keep information flowing.
- 
-For many years the Chaos Computer Club creates Video-Content documentating a large number of talks and activities. Of course this content is accessible in several ways.
-CCC-TV is your App to watch Video-Content of the Chaos Computer Club in a convenient way at home on your Apple TV.
-This easy to use App reduces the barrier and makes the activities of the Chaos Computer Club obvious for a wider audience.
- 
-Just select the event you're interested in and enjoy the various world of Chaos Computer Club on your sofa!
+They are mainly organised in small groups/get-togethers but also organise large conferences. Here they tinker, talk and exchange ideas. Technical barriers are
+overcome, new things created and old ones taken appart. Discussions range from technical to political and social topics, always keeping communication and exchange of ideas and information in mind.
+
+For many years the Chaos Computer Club has created videos, which document the many talks and activities, making them available via various platforms. 
+Creating the CCC-TV now allows users to access this video material in a comfortable manner via their Apple TV and gives an insight into the club's activities.
+
+Simply sit down, select the CCC-TV app and emerge yourself in the wonderful world of the Chaos Computer Club.
 
 ### German
 Der Chaos Computer Club ist Europas größte Hackervereinigung und ein Treffpunkt für vielfältig interessierte Menschen aus der ganzen Welt.
@@ -36,5 +37,6 @@ Einfach auf´s Sofa setzen, CCC-TV auswählen und in die wunderbar vielfältige 
 
 * Kris Simon (adt, ccc-ffm)
 * Wonko (ccc-ffm)
+* Phoenoxol (ccc-ffm)
 
 If you like to contribute, please read this [document](./resources/contribute.md).
