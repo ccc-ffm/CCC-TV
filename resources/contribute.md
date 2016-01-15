@@ -4,7 +4,7 @@ We do not have any hard restrictions. Just clone the repository and work with th
 
 The server code is hosted by "aus der Technik - Simon & Simon GbR" as a sponsoring for ccc-ffm. We do accept pull requests and we do accept new features! 
 
-The best way to get your features in is to read the wiki page first. The core team is also available on the mailing list of the Chaos Computer Club Frankfurt: CCC FFM Public <public@lists.ccc-ffm.de>
+The best way to get your features in is to read the [wiki page](https://github.com/aus-der-Technik/CCC-TV/wiki) first. The core team is also available on the mailing list of the Chaos Computer Club Frankfurt: CCC FFM Public <public@lists.ccc-ffm.de>
 Please write a short summery about your feature and stick it within your pull request. 
 
 We plan to update the application on a regular basis. 
