@@ -4,6 +4,10 @@ xcodeproj 'CCC-TV/CCCtv.xcodeproj'
 
 use_frameworks!
 
+target :CCCtv do
     pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
+end
 
-link_with 'CCCtv', 'CCCtv-Tests'
+target :'CCCtv-Tests' do
+	pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
+end

@@ -30,7 +30,7 @@ var Template = function(section, callback) {
 The video material is provided by media.ccc.de
 
 Special thanks to Chaos Computer Club Köln (CCCC) and Chaos Computer Club Frankfurt (CCC-FFM).				
-This is an open source project hosted by aus der Technik - Simon &amp; Simon GbR and available on GitHub.
+This is an open source project by the Chaos Computer Club Frankfurt and it is available on GitHub.
 
 If you like the content please join the Chaos Computer Club.
 	   </description>
