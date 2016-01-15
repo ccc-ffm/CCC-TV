@@ -4,16 +4,16 @@ We do not have any hard restrictions. Just clone the repository and work with th
 
 The server code is hosted by "aus der Technik - Simon & Simon GbR" as a sponsoring for ccc-ffm. We do accept pull requests and we do accept new features! 
 
-The best way to get your features in is to discuss your idea on our public mailing list: CCC FFM Public <public@lists.ccc-ffm.de>
+The best way to get your features in is to read the [wiki page](https://github.com/aus-der-Technik/CCC-TV/wiki) first. The core team is also available on the mailing list of the Chaos Computer Club Frankfurt: CCC FFM Public <public@lists.ccc-ffm.de>
 Please write a short summery about your feature and stick it within your pull request. 
 
-We plan to update the application on a monthly basis. 
+We plan to update the application on a regular basis. 
 
 The application is build on a mindset you have to agree to, if you want to deploy your code into the main branch: 
 
 * Usability over Functions (make it good, not feature rich!)
 * Read the: [Human Interface Guidelines](https://developer.apple.com/tvos/human-interface-guidelines/)
-* First use data that is always there
+* First use data that is already there
 * Try to help the user to find content that belongs to them
 * Avoid text-inputs like heavy search fields
 * be nice to each other
