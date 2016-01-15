@@ -4,10 +4,9 @@
 
 A Fronted to the content from media.ccc.de for new the Apple Tv.
 
-![Main Screen](./resources/ScreenShot.png)
+![Main Screen](./resources/graphics/AppStore/Images/Catalog.png)
 
 ## About ##
-![About the app](./resources/graphics/tsi.png)
 
 ### English ###
 The Chaos Computer Club is Europe's largest hacker community and allows people from all over the world, with a large variety of interests, to meet up
