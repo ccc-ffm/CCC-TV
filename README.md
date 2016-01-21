@@ -8,7 +8,7 @@ A Fronted to the content from media.ccc.de for new the Apple Tv.
 
 ## About ##
 
-Join #ccctv on freenode!
+[Join #ccctv on freenode](http://webchat.freenode.net?randomnick=1&channels=%23ccctv&prompt=1)
 
 ### English ###
 The Chaos Computer Club is Europe's largest hacker community and allows people from all over the world, with a large variety of interests, to meet up
