@@ -22,7 +22,7 @@ overcome, new things created and old ones taken appart. Discussions range from t
 For many years the Chaos Computer Club has created videos, which document the many talks and activities, making them available via various platforms. 
 Creating the CCC-TV now allows users to access this video material in a comfortable manner via their Apple TV and gives an insight into the club's activities.
 
-Simply sit down, select the CCC-TV app and emerge yourself in the wonderful world of the Chaos Computer Club.
+Simply sit down, select the CCC-TV app and immense yourself in the wonderful world of the Chaos Computer Club.
 
 ### German
 Der Chaos Computer Club ist Europas größte Hackervereinigung und ein Treffpunkt für vielfältig interessierte Menschen aus der ganzen Welt.
