@@ -13,16 +13,11 @@ IRC: [Join #ccctv on freenode](http://webchat.freenode.net?randomnick=1&channels
 ## About ##
 
 ### English ###
-The Chaos Computer Club is Europe's largest hacker community and allows people from all over the world, with a large variety of interests, to meet up
-and discuss various topics.
+The Chaos Computer Club is Europe's largest hacker community and allows people with a wide range of interests from all over the world to meet up and discuss various topics. The club generally meets in small groups/get-togethers, but also hosts large conferences. Here they tinker, talk and exchange ideas. Technical barriers are overcome, new things created and old ones taken apart. Discussions range from technological to political and social topics, with a focus on communication and exchange of ideas and information.
 
-They are mainly organised in small groups/get-togethers but also organise large conferences. Here they tinker, talk and exchange ideas. Technical barriers are
-overcome, new things created and old ones taken appart. Discussions range from technical to political and social topics, always keeping communication and exchange of ideas and information in mind.
+For over fifteen years, the Chaos Computer Club has created videos to document the many talks and activities, many of which are available via various platforms. The CCC-TV now allows users to comfortably access this video material via their Apple TV and provides an insight into the club's activities.
 
-For many years the Chaos Computer Club has created videos, which document the many talks and activities, making them available via various platforms. 
-Creating the CCC-TV now allows users to access this video material in a comfortable manner via their Apple TV and gives an insight into the club's activities.
-
-Simply sit down, select the CCC-TV app and immense yourself in the wonderful world of the Chaos Computer Club.
+Just relax on your couch, select the CCC-TV app and immerse yourself in the wonderful world of the Chaos Computer Club.
 
 ### German
 Der Chaos Computer Club ist Europas größte Hackervereinigung und ein Treffpunkt für vielfältig interessierte Menschen aus der ganzen Welt.
