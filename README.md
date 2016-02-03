@@ -35,6 +35,45 @@ Diese einfach zu bedienende App reduziert die Hürde zum Chaos Computer Club und
  
 Einfach auf´s Sofa setzen, CCC-TV auswählen und in die wunderbar vielfältige Welt des Chaos Computer Club eintauchen!
 
+### France
+Le Chaos Computer Club est le plus grand rassemblement de hackers au
+niveau européen. C'est un lieu de rencontre pour des gens venant de
+partout dans le monde, ayant des intérêts multiples. Le plus souvent
+ce sont des petits groupes qui se rencontrent, mais des grandes
+conférences ont également lieu. Les gens bricolent, essaient,
+bidouillent des nouvelles techniques. Des obstacles techniques sont
+dépassés, on crée des nouvelles choses et déconstruit
+d'anciennes. C'est un lieu de discussions politiques, mais l'échange
+et la communication priment sur tout.
+
+Depuis beaucoup d'années, le CCC crée des vidéos qui documentent ces
+présentations et activités. Naturellement on a accès à ces vidéos de
+plusieurs façons. Avec l'application CCC-TV, le contenu vidéo est
+disponible de façon confortable sur Apple TV. L'application est facile
+à manipuler et facilite ainsi l'accès au club pour le grand publique.
+
+Asseyez-vous donc simplement sur votre canapé, sélectionnez CCC-TV et
+plongez dans le monde si merveilleusement diversifié du Chaos Computer
+Club!
+
+### Greek 
+Το Chaos Computer Club είναι η μεγαλύτερη ένωση χάκερ της Ευρώπης και ένα σημείο 
+συνάντησης ανθρώπων με ποικίλα ενδιαφέροντα από ολόκληρο τον κόσμο. Συναντιόμαστε κυρίως 
+στο πλαίσιο μικρών συνελεύσεων, αλλά και σε μεγάλα συνέδρια. Εκεί συζητάμε, σχεδιάζουμε 
+και ανταλλάσσουμε ιδέες. Τα τεχνικά εμπόδια εξαλείφονται, δημιουργούμε νέα τεχνολογία και 
+αναλύουμε την παλιά. Μέρος των συζητήσεών μας αποτελεί και η πολιτική. Επίκεντρο όλων των 
+δραστηριοτήτων είναι η επικοινωνία και η ανταλλαγή.
+
+Εδώ και πολλά χρόνια το Chaos Computer Club δημιουργεί βίντεο στα οποία τεκμηριώνονται 
+πολλές από τις παρουσιάσεις και τις δραστηριότητές μας. Τα βίντεο αυτά είναι διαθέσιμα με 
+διάφορους τρόπους, αλλά μέσω της εφαρμογής CCC-TV μπορείτε τώρα να απολαμβάνετε άνετα τα 
+περιεχόμενα βίντεο του Chaos Computer Club από την Apple TV. Αυτή η εύχρηστη εφαρμογή 
+φέρνει το Chaos Computer Club πιο κοντά και πλέον έχουν πρόσβαση στις δραστηριότητές του 
+ακόμη περισσότερα άτομα.
+
+Καθίστε απλώς στον καναπέ σας, επιλέξτε την εφαρμογή CCC-TV και βυθιστείτε στον 
+μοναδικά πολύπλευρο κόσμο του Chaos Computer Club!
+
 
 ## Contributors ##
 
