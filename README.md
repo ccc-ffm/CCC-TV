@@ -54,7 +54,7 @@ gesteld.
 Gewoon lekker gaan zitten, CCC-TV selecteren, en duik in de wonderbaarlijk diverse
 wereld van de Chaos Computer Club!
 
-### France
+### French
 Le Chaos Computer Club est le plus grand rassemblement de hackers au
 niveau européen. C'est un lieu de rencontre pour des gens venant de
 partout dans le monde, ayant des intérêts multiples. Le plus souvent
