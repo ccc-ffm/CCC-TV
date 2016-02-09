@@ -35,7 +35,26 @@ Diese einfach zu bedienende App reduziert die Hürde zum Chaos Computer Club und
  
 Einfach auf´s Sofa setzen, CCC-TV auswählen und in die wunderbar vielfältige Welt des Chaos Computer Club eintauchen!
 
-### France
+### Dutch
+De "Chaos Computer Club" is Europaʼs grootste hacker gemeenschap en een
+platform voor mensen uit de hele wereld met zeer gevarieerde interesses om zeer
+uiteenlopende onderwerpen te bespreken. Zij ontmoeten elkaar in kleine groepen of
+bijeenkomsten, maar ook op grote conferenties. Hier wordt geknutseld,
+geëxperimenteerd en worden ideeën uitgewisseld. Technische barrières worden
+geslecht, nieuwe gebieden ontgonnen en oude ideeën ontmanteld. Er wordt
+gesproken en gedebatteerd over zowel technische als politieke en sociale
+onderwerpen, waarbij communicatie en uitwisseling van ideeën en informatie altijd
+centraal blijven staan.
+Sinds vele jaren maakt de Chaos Computer Club videos, die de vele gesprekken en
+activiteiten van de club vastleggen. Deze videoʼs zijn uiteraard voor iedereen
+toegankelijk gemaakt via verschillende kanalen en platforms. Met de nieuwe CCC-TV
+app is de video-inhoud van de Chaos Computer Club nu gemakkelijk op de Apple TV
+te bekijken en worden de activiteiten van de club aan een breder publiek beschikbaar
+gesteld.
+Gewoon lekker gaan zitten, CCC-TV selecteren, en duik in de wonderbaarlijk diverse
+wereld van de Chaos Computer Club!
+
+### French
 Le Chaos Computer Club est le plus grand rassemblement de hackers au
 niveau européen. C'est un lieu de rencontre pour des gens venant de
 partout dans le monde, ayant des intérêts multiples. Le plus souvent
