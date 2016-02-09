@@ -2,7 +2,7 @@
 
 # CCC-TV #
 
-A Fronted to the content from media.ccc.de for new the Apple Tv.
+A Frontend to the content from media.ccc.de for new the Apple Tv.
 
 ![Main Screen](./resources/graphics/AppStore/Images/Catalog.png)
 
@@ -22,7 +22,7 @@ overcome, new things created and old ones taken appart. Discussions range from t
 For many years the Chaos Computer Club has created videos, which document the many talks and activities, making them available via various platforms. 
 Creating the CCC-TV now allows users to access this video material in a comfortable manner via their Apple TV and gives an insight into the club's activities.
 
-Simply sit down, select the CCC-TV app and emerge yourself in the wonderful world of the Chaos Computer Club.
+Simply sit down, select the CCC-TV app and immense yourself in the wonderful world of the Chaos Computer Club.
 
 ### German
 Der Chaos Computer Club ist Europas größte Hackervereinigung und ein Treffpunkt für vielfältig interessierte Menschen aus der ganzen Welt.
@@ -34,6 +34,64 @@ Mit der App CCC-TV ist der Video-Content des Chaos Computer Club nun auf bequeme
 Diese einfach zu bedienende App reduziert die Hürde zum Chaos Computer Club und macht die Aktivitäten de Clubs einer breiteren Öffentlichkeit verfügbar.
  
 Einfach auf´s Sofa setzen, CCC-TV auswählen und in die wunderbar vielfältige Welt des Chaos Computer Club eintauchen!
+
+### Dutch
+De "Chaos Computer Club" is Europaʼs grootste hacker gemeenschap en een
+platform voor mensen uit de hele wereld met zeer gevarieerde interesses om zeer
+uiteenlopende onderwerpen te bespreken. Zij ontmoeten elkaar in kleine groepen of
+bijeenkomsten, maar ook op grote conferenties. Hier wordt geknutseld,
+geëxperimenteerd en worden ideeën uitgewisseld. Technische barrières worden
+geslecht, nieuwe gebieden ontgonnen en oude ideeën ontmanteld. Er wordt
+gesproken en gedebatteerd over zowel technische als politieke en sociale
+onderwerpen, waarbij communicatie en uitwisseling van ideeën en informatie altijd
+centraal blijven staan.
+Sinds vele jaren maakt de Chaos Computer Club videos, die de vele gesprekken en
+activiteiten van de club vastleggen. Deze videoʼs zijn uiteraard voor iedereen
+toegankelijk gemaakt via verschillende kanalen en platforms. Met de nieuwe CCC-TV
+app is de video-inhoud van de Chaos Computer Club nu gemakkelijk op de Apple TV
+te bekijken en worden de activiteiten van de club aan een breder publiek beschikbaar
+gesteld.
+Gewoon lekker gaan zitten, CCC-TV selecteren, en duik in de wonderbaarlijk diverse
+wereld van de Chaos Computer Club!
+
+### French
+Le Chaos Computer Club est le plus grand rassemblement de hackers au
+niveau européen. C'est un lieu de rencontre pour des gens venant de
+partout dans le monde, ayant des intérêts multiples. Le plus souvent
+ce sont des petits groupes qui se rencontrent, mais des grandes
+conférences ont également lieu. Les gens bricolent, essaient,
+bidouillent des nouvelles techniques. Des obstacles techniques sont
+dépassés, on crée des nouvelles choses et déconstruit
+d'anciennes. C'est un lieu de discussions politiques, mais l'échange
+et la communication priment sur tout.
+
+Depuis beaucoup d'années, le CCC crée des vidéos qui documentent ces
+présentations et activités. Naturellement on a accès à ces vidéos de
+plusieurs façons. Avec l'application CCC-TV, le contenu vidéo est
+disponible de façon confortable sur Apple TV. L'application est facile
+à manipuler et facilite ainsi l'accès au club pour le grand publique.
+
+Asseyez-vous donc simplement sur votre canapé, sélectionnez CCC-TV et
+plongez dans le monde si merveilleusement diversifié du Chaos Computer
+Club!
+
+### Greek 
+Το Chaos Computer Club είναι η μεγαλύτερη ένωση χάκερ της Ευρώπης και ένα σημείο 
+συνάντησης ανθρώπων με ποικίλα ενδιαφέροντα από ολόκληρο τον κόσμο. Συναντιόμαστε κυρίως 
+στο πλαίσιο μικρών συνελεύσεων, αλλά και σε μεγάλα συνέδρια. Εκεί συζητάμε, σχεδιάζουμε 
+και ανταλλάσσουμε ιδέες. Τα τεχνικά εμπόδια εξαλείφονται, δημιουργούμε νέα τεχνολογία και 
+αναλύουμε την παλιά. Μέρος των συζητήσεών μας αποτελεί και η πολιτική. Επίκεντρο όλων των 
+δραστηριοτήτων είναι η επικοινωνία και η ανταλλαγή.
+
+Εδώ και πολλά χρόνια το Chaos Computer Club δημιουργεί βίντεο στα οποία τεκμηριώνονται 
+πολλές από τις παρουσιάσεις και τις δραστηριότητές μας. Τα βίντεο αυτά είναι διαθέσιμα με 
+διάφορους τρόπους, αλλά μέσω της εφαρμογής CCC-TV μπορείτε τώρα να απολαμβάνετε άνετα τα 
+περιεχόμενα βίντεο του Chaos Computer Club από την Apple TV. Αυτή η εύχρηστη εφαρμογή 
+φέρνει το Chaos Computer Club πιο κοντά και πλέον έχουν πρόσβαση στις δραστηριότητές του 
+ακόμη περισσότερα άτομα.
+
+Καθίστε απλώς στον καναπέ σας, επιλέξτε την εφαρμογή CCC-TV και βυθιστείτε στον 
+μοναδικά πολύπλευρο κόσμο του Chaos Computer Club!
 
 
 ## Contributors ##

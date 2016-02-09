@@ -1,0 +1,263 @@
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>CCC-Tv Libre-Version installieren</title>
+
+    <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <style>
+  	h1, .jumbotron h1 {
+  		font-size: 40px;
+  	}
+  	img {
+  		display: block;
+  	}
+  	img.inline {
+  		display: inline; 
+  	}
+  	pre {
+  		text-align: left;
+  	}
+  </style>
+  <body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">CCC Tv Libre-Version installieren</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+          	<!--
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            -->
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    
+    <div class="container theme-showcase" role="main">
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <h1>Installieren der “CCC-TV”-App unabhängig vom AppStore</h1>
+        <p>
+        	Diese Anleitung beschreibt wie man die CCC-TV App auf seinem Apple TV mit 
+        	allen von media.ccc.de zur Verfügung gestellten Inhalten installiert. 
+        	(Annmerkung: in der AppStore Version wurden 8 Videos von Apple wegen 
+        	inhaltlicher Bedenken gesperrt.)
+        </p>
+      </div>
+      
+      <div class="alert alert-warning" role="alert">
+        <strong>Achtung:</strong> 
+        Bei der hier beschriebenen Selbstinstallation der App finden keine automatischen 
+        Updates statt. (Dies ist nur mit Software aus dem AppStore möglich) 
+        <br />
+		Bitte selbsttätig auf das Vorhandensein von Updates prüfen und ggf. manuell updaten.
+      </div>
+
+      <div class="page-header">
+        <h2>Vorbereitungen</h2>
+      </div>
+      <p>
+		Benötigt wird: 
+		<ul>
+			<li>Ein Apple TV Generation 4</li>
+			<li>Ein Mac mit aktuellem OSX (Yosemite)</li>
+			<li>Ein USB-C Kabel</li>
+			<li>Grundkenntnisse (copy&paste) mit der Terminal.app</li>
+			<li>Verbindung zum Internet</li>
+		</ul>
+      </p>
+      
+      <div class="page-header">
+        <h2><strong>Schritt 1:</strong> Installieren von Xcode</h2>
+      </div>
+      <p>
+		Xcode lässt sich kostenfrei aus dem Mac AppStore laden.
+		<img src="./img/1.png" />
+	  </p>
+	  <p>
+		Dazu ist zunächst der Mac AppStore zu öffnen und über die Suche Xcode zu finden. 
+		Ist die (oben dargestellte Seite) offen, lasst sich die IDE über den Button 
+		“installieren” auf den eigenen Rechner installieren. Die Installation dauert 
+		einige Zeit, passiert jedoch im Hintergrund. 
+	  </p>
+	  <p>
+	   Der AppStore kann derzeit in den Hintergrund gelegt werden (rote Schaltfläche 
+	   oben links). Die Schritte 2-4 können bereits ausgeführt werden.
+	  </p>
+	  
+	  <div class="page-header">
+        <h2><strong>Schritt 2:</strong> Download der Quelldateien</h2>
+      </div>
+      <p>
+		Die aktuellen Quelldateien befinden sich auf GitHub. Ein Zip-Archive ist unter 
+		<a href="https://github.com/ccc-ffm/CCC-TV/archive/libre.zip">
+			<span class="label label-success">https://github.com/ccc-ffm/CCC-TV/archive/libre.zip</span>
+		</a> abrufbar. 
+		
+		<br />
+		Nach dem Download sollte sich das Archiv automatisch entpacken 
+		(wenn diese Einstellung bei Dir geändert ist, bitte per Doppelklick auspacken).
+	  </p>
+	  
+	  
+	  <div class="page-header">
+        <h2><strong>Schritt 3:</strong> Installieren von Cocoapods</h2>
+      </div>
+      <p>
+		CocoaPods ist ein Installationstool von Paketen für Swift und Objective-C. Auf 
+		der Seite von <a href="https://www.cocoapods.org">CocoaPods.org</a> befindet sich ein Tool das zunächst installiert werden 
+		muss. <br />
+		Die Anwendung ist von
+		<a href=" https://github.com/CocoaPods/CocoaPods-app/releases/download/1.0.0.beta.2/CocoaPods.app-1.0.0.beta.2.tar.bz2">
+			 https://github.com/CocoaPods/CocoaPods-app/releases/download/1.0.0.beta.2/CocoaPods.app-1.0.0.beta.2.tar.bz2
+		</a> (oder aktuellste Version) herunterzuladen. 
+		<br />
+		Mit einem Doppelklick entpackt sich das Archiv. Die Applikation muss zunächst in 
+		den “Anwendungen”, bzw “Applications” Ordner des Systems verschoben werden.
+		<img src="./img/2.png" />
+	  </p>
+	  <p>
+		  Nun kann die CocoaPods App geöffnet werden:
+		 <img src="./img/3.png" />
+	  </p>
+	  <p>
+	  	Nach dem Öffnen erscheint das Hauptfenster:
+	  	<img src="./img/4.png" />
+	  	Nun müssen die Command-Line Tools von CocoaPods installiert werden. Dazu im oberen blauen Kasten auf Install klicken.
+		<br />
+		CocoaPods kann nun geschlossen werden. 
+	  </p>
+	  
+
+	  <div class="page-header">
+        <h2><strong>Schritt 4:</strong> Projektabhängigkeiten installieren</h2>
+      </div>
+      <p>
+	  	<img src="./img/5.png" />
+	  	Nun ist die Terminal.app zu öffnen und in das aus Schritt 2 heruntergeladene 
+	  	Verzeichnis zu wechseln.
+	  	<br />
+	  	Dazu folgenden Befehl einfügen und mit der Enter-Taste bestätigen.
+        <pre>cd Downloads/CCC-TV-libre/tvOS-App/</pre>
+		Dann die Paketabhängigkeiten dem vom cocoapods mitgelieferten Tool “pod” installieren:
+		<pre>pod install</pre>
+		Es sollte folgende Ausgabe auf dem Terminal erscheinen:
+		<img src="./img/6.png" />
+		<br />
+		Die Arbeiten im Terminal sind nun beendet. 
+	  </p>
+	  
+	  
+	  <div class="page-header">
+        <h2><strong>Schritt 5:</strong> Compilieren der Applikation</h2>
+      </div>
+      <p>
+      	Nun muss Xcode (soweit fertig heruntergeladen) mittels Doppelklick auf den 
+      	<strong>Workspace des Projektes</strong> geöffnet werden. 
+		<img src="./img/7.png" />
+      	Xcode startet und das Projekt wird geöffnet. 
+      </p>
+      <p>
+	      <div class="alert alert-danger" role="alert">
+    	    <strong>
+    	    	Es ist nun wichtig zunächst das Apple TV an den Mac mittels des 
+    	    	USB-C Kabels anzuschließen.
+    	    </strong>
+      	  </div>
+      </p>
+      <p>
+	      Xcode erkennt das angeschlossene Gerät, es muss nun jedoch noch das richtige 
+	      Scheme und Device ausgewählt werden. <br />
+	      Bitte warten bis in der Statusleiste (oben Mitte) “Processing Symbole files” 
+	      abgeschlossen wurde:
+	      <img src="./img/8.png" />
+      </p>
+      <p><br />
+      	In der oberen Leiste ist nun <strong>CCCtv (Production)</strong> zu wählen mit dem 
+      	eben angeschlossenen und erkannten Device: <br /><br />
+      	 <img src="./img/9.png" />
+      </p>
+      <p>
+      	Mit der “Run”-Schaltfläche
+      	<img class="inline" src="./img/run.png" />
+      	wird die App gebaut und auf das Apple TV übertragen.
+      </p>
+	  <p>
+	  	Auf dem Apple TV Springboard erscheint nun die CCC-TV App.<br />
+	  	 <img src="./img/10.png" />
+	  </p>
+	  
+	  <hr />
+	  <div class="page-header">
+        <h2><strong>Fehlerbehebung:</strong> (Nur in seltenen Fällen nötig - warum wissen wir noch nicht!)</h2>
+      </div>
+      <p>
+	      <img src="./img/11.png" />
+	      <br />
+	      Erscheint oben in der Taskleiste ein rotes Ausrufungszeichen, so müssen zunächst 
+	      die Pakete gebaut werden. Dazu ist in das Scheme “Pods-CCCtv” einzubinden. 
+	      Im Menu dazu auf “managed schemes” gehen und Pods-CCCtv aktivieren. 
+	      <br />
+	       <img src="./img/12.png" />
+	       <img src="./img/13.png" />
+	       <img src="./img/15.png" />
+	       <br />
+	       Danach muss in das Schema gewechselt werden und das Projekt einmal über die 
+	       Run-Schaltfläche gebaut werden. 
+      </p>
+      <p> 
+      	Die Taskleiste bestätigt dies mit einem Erfolg:<br />
+      	<img src="./img/14.png" />
+      </p>
+		<p> 
+      	Danach wieder in das Schema <strong>CCCtv (Production)</strong> zurück wechseln 
+      	und die Übertragung wie beschreiben noch einmal anstoßen. 
+      </p>
+      <p> 
+      	Auf dem Apple TV Springboard erscheint nun die CCC-TV App.
+	  </p>
+
+
+
+    </div>
+
+
+  </body>
+</html>
