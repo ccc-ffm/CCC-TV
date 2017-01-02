@@ -2,7 +2,7 @@
 
 # CCC-TV #
 
-A Frontend to the content from media.ccc.de for new the Apple Tv.
+A Frontend to the content from media.ccc.de for the new Apple TV.
 
 ![Main Screen](./resources/graphics/AppStore/Images/Catalog.png)
 
