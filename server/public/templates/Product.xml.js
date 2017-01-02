@@ -36,7 +36,7 @@ var Template = function ProductTemplate(model, callback) {
 			case 9:
 				return "September";
 			case 10:
-				return "Oktober";
+				return "October";
 			case 11:
 				return "November";
 			case 12:
