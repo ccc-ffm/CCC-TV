@@ -6,10 +6,6 @@ A Frontend to the content from media.ccc.de for the new Apple TV.
 
 ![Main Screen](./resources/graphics/AppStore/Images/Catalog.png)
 
-## Get in contact ##
-
-IRC: [Join #ccctv on freenode](http://webchat.freenode.net?randomnick=1&channels=%23ccctv&prompt=1)
-
 ## About ##
 
 ### English ###
